@@ -1,0 +1,27 @@
+/* -- Contact Section
+ ---- ---- ---- ---- ----*/
+.contact .content-right .info {
+	margin-bottom: 15px;
+}
+
+.contact .content-right .info span {
+	color: var(--green-color);
+	padding-right: 10px;
+	width: 6%;
+}
+
+.contact .content-right form {
+	row-gap: 15px;
+}
+
+.contact .content-right form > * {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid var(--lite-gray-color);
+	background-color: var(--gray-color);
+	color: var(--white-color);
+}
+
+.contact .content-right form > *:focus {
+	outline: 0;
+}

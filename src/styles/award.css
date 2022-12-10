@@ -1,0 +1,26 @@
+/* -- Award Section
+ ---- ---- ---- ---- ----*/
+.award .content-left .info .info {
+	width: 100%;
+}
+
+.award .content-left .info h2 {
+	font-size: 2.1em;
+}
+
+.award .content-left .info p {
+	margin: 20px 0;
+}
+
+.award .content-left .info .image {
+	width: 100%;
+	row-gap: 30px;
+}
+
+.award .content-left .info div {
+	width: 50%;
+}
+
+.award .content-left .info div img {
+	width: 75%;
+}

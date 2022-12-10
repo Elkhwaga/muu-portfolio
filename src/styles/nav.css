@@ -1,0 +1,49 @@
+/* -- Header
+ ---- ---- ---- ---- ----*/
+header {
+	padding: 10px 0;
+}
+
+/* -- Logo
+ ---- ---- ---- ---- ----*/
+header .logo h1 {
+	font-size: 3em;
+}
+
+header .logo h1 span {
+	color: var(--green-color);
+}
+
+/* -- Nav
+ ---- ---- ---- ---- ----*/
+header nav .toggle {
+	font-size: 25px;
+	color: var(--green-color);
+	cursor: pointer;
+	background: none;
+	border: 0;
+}
+
+header nav .nav-links-sidebar {
+	position: absolute;
+	top: 82px;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding: 0 20px;
+	z-index: 100;
+	transition: 0.5s;
+	background-color: var(--green-color);
+	height: 100vh;
+	justify-content: center;
+}
+
+header nav .nav-links {
+	display: none;
+}
+
+header nav ul li a {
+	color: var(--white-color);
+}

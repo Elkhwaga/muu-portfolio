@@ -1,0 +1,15 @@
+/* -- Education Section
+ ---- ---- ---- ---- ----*/
+.education .content-right p {
+	font-size: 0.9rem;
+}
+
+.education .content-right .box {
+	gap: 30px;
+}
+
+.education .content-right .box span:first-child {
+	font-size: 2.1rem;
+	color: var(--green-color);
+	width: 10%;
+}

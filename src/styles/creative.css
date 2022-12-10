@@ -1,0 +1,20 @@
+/* -- Creative Section
+ ---- ---- ---- ---- ----*/
+.creative .content-left > span:first-of-type {
+	font-size: 2rem;
+}
+
+.creative .content-left h3 {
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin: 20px 0;
+}
+
+.creative .content-left > span:first-of-type,
+.creative .content-left > span:last-of-type {
+	color: var(--green-color);
+}
+
+.creative .content-left p {
+	margin: 15px 0;
+}

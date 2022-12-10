@@ -1,0 +1,19 @@
+/* -- Blog Section
+ ---- ---- ---- ---- ----*/
+.blog .box {
+	width: 92%;
+	overflow: hidden;
+	row-gap: 30px;
+	column-gap: 30px;
+	height: 100%;
+	padding: 30px;
+}
+
+.blog .box div {
+	width: 31.3%;
+	box-shadow: 0 0 5px rgb(76 76 76 / 20%);
+}
+
+.blog .box div img {
+	height: 100%;
+}

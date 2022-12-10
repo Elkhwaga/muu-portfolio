@@ -1,0 +1,31 @@
+/* -- Portfolio Section
+ ---- ---- ---- ---- ----*/
+.portfolio .content-right h2 {
+	font-size: 2.2em;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.portfolio .content-right ul {
+	margin: 20px 0;
+}
+
+.portfolio .content-right ul li {
+	gap: 15px;
+}
+
+.portfolio .content-right ul li span {
+	color: var(--green-color);
+}
+
+.portfolio .content-right ul li p {
+	font-size: 0.9rem;
+}
+
+.portfolio .content-right ul li:not(:last-of-type) {
+	margin-bottom: 15px;
+}
+
+.portfolio .content-right .btn {
+	width: 50%;
+}

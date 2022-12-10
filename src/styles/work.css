@@ -1,0 +1,22 @@
+/* -- Work Section
+ ---- ---- ---- ---- ----*/
+.work .content-left .box {
+	gap: 30px;
+}
+
+.work .content-left .box span:first-child {
+	color: var(--white-color);
+	background-color: var(--green-color);
+	width: 40%;
+	padding: 5px;
+	text-align: center;
+}
+
+.work .content-left .box .info h3 {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.work .content-left .box .info p {
+	font-size: 0.9rem;
+}
